@@ -34,6 +34,7 @@ android {
 }
 
 dependencies {
+    implementation(project(mapOf("path" to ":stub")))
     discord("com.discord:discord:${findProperty("discord_version")}")
 }
 

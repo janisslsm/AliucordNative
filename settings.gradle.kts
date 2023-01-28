@@ -15,3 +15,4 @@ pluginManagement {
 
 rootProject.name = "AliucordNative"
 include(":app")
+include(":stub")
